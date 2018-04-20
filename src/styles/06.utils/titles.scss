@@ -1,0 +1,40 @@
+.u-title {
+  color: $primary-dark;
+  text-transform: uppercase;
+  &--xxl {
+    font-size: $title-xxl;
+  }
+
+  &--xl {
+    font-size: $title-xl;
+  }
+  &--lg {
+    font-size: $title-lg;
+  }
+
+  &--md {
+    font-size: $title-md;
+  }
+
+  &--sm {
+    font-size: $title-sm;
+  }
+
+  &--light {
+    color: $primary-light;
+  }
+
+  &--crossed {
+    position: relative;
+    display: inline-block;
+    &::before {
+      content: "";
+      border-bottom: 0.12em solid $secondary-dark;
+      width: 100%;
+      position: absolute;
+      right: 0;
+      top: 60%;
+      z-index: -1;
+    }
+  }
+}

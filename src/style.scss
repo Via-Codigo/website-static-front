@@ -1,7 +1,10 @@
-body {
-  background-color: red;
+/**
+Imports del arbol de dependencias
+mantener la misma estructura
+**/
 
-  h1 {
-    text-align: center;
-  }
-}
+@import "./styles/00.settings/fonts", "./styles/00.settings/colors";
+
+@import "./styles/02.common/base", "./styles/02.common/texts";
+
+@import "./styles/06.utils/titles";
