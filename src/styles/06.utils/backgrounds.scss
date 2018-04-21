@@ -1,7 +1,24 @@
+// colores
 .u-bkg-1 {
   background-color: $primary-dark;
 }
 
 .u-bkg-2 {
   background-color: $primary-darkest;
+}
+
+.u-bkg-3 {
+  background-color: $secondary-lighter;
+}
+
+// fondos
+
+.u-bkg-img-1 {
+  background-image: url("./assets/img/hero-background.jpg");
+}
+
+.u-bkh-hero {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

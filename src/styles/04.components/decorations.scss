@@ -1,0 +1,21 @@
+.c-line-before-sm {
+  &:before {
+    content: "";
+    display: block;
+    border-left: 4px solid $primary-light;
+    height: 2.5em;
+    position: relative;
+    left: 50%;
+  }
+}
+
+.c-line-after-xl {
+  &:after {
+    content: "";
+    display: block;
+    border-left: 4px solid $primary-light;
+    height: 15em;
+    position: relative;
+    left: 50%;
+  }
+}

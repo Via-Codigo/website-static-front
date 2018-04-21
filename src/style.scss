@@ -6,6 +6,7 @@ mantener la misma estructura
 @import "./styles/00.settings/reset",
   "./styles/00.settings/fonts",
   "./styles/00.settings/colors",
+  "./styles/00.settings/indexes",
   "./styles/00.settings/sizes";
 
 @import "./styles/02.common/base";
@@ -18,6 +19,10 @@ mantener la misma estructura
   "./styles/04.components/forms",
   "./styles/04.components/titles",
   "./styles/04.components/header",
+  "./styles/04.components/hero-intro",
+  "./styles/04.components/decorations",
   "./styles/04.components/footer";
 
-@import "./styles/06.utils/backgrounds", "./styles/06.utils/text";
+@import "./styles/06.utils/backgrounds",
+  "./styles/06.utils/text",
+  "./styles/06.utils/positioning";

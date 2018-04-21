@@ -1,6 +1,16 @@
 .c-header {
+  &-container {
+    display: block;
+    width: 100%;
+    z-index: $nav-z-index;
+    // background-image: url("./assets/img/hero-background.jpg");
+    // background-position: center center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+  }
   display: flex;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0);
   img {
     height: $header-height;
     padding-bottom: 2rem;
