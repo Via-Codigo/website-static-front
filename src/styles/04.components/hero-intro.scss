@@ -3,8 +3,8 @@
   margin: 0 auto;
   ￼display: flex;
   ￼flex-direction: column;
-  //   position: relative;
-  //   top: -$header-height;
+
+  margin-top: -$header-height;
   padding: $hero-padding 0 0 0;
 
   &__icon {
