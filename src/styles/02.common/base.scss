@@ -22,6 +22,7 @@ h6 {
 p {
   line-height: 1.5em;
   font-family: $body;
+  margin-bottom: 1em;
 }
 
 ul {
@@ -31,4 +32,13 @@ ul {
 
 a {
   cursor: pointer;
+}
+
+em {
+  color: $primary-light;
+}
+
+strong,
+b {
+  color: $primary-dark;
 }

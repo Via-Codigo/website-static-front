@@ -173,7 +173,8 @@ h6 {
 
 p {
   line-height: 1.5em;
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 1em; }
 
 ul {
   list-style: disc;
@@ -181,6 +182,13 @@ ul {
 
 a {
   cursor: pointer; }
+
+em {
+  color: #f05351; }
+
+strong,
+b {
+  color: #174665; }
 
 .l-basegrid {
   display: grid;
@@ -199,6 +207,13 @@ a {
   width: 100%;
   padding: 0 5%;
   margin: 0 auto; }
+
+.l-3_4 {
+  display: grid;
+  grid-template-columns: minmax(300px, 6fr) 4fr;
+  grid-column-gap: 150px; }
+  .l-3_4 img {
+    max-width: 300px; }
 
 .c-button-link {
   position: relative;
@@ -482,5 +497,14 @@ a {
 .u-bold {
   font-weight: bold; }
 
+.u-text-xl {
+  font-size: 2.5rem; }
+
+.u-text-primary-dark {
+  color: #174665; }
+
 .u-fixed {
   position: fixed; }
+
+.u-padding--xl {
+  padding: 9rem; }

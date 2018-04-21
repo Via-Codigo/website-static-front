@@ -27,3 +27,13 @@
   //max-width: 1280px;
   margin: 0 auto;
 }
+
+.l-3_4 {
+  display: grid;
+  grid-template-columns: minmax(300px, 6fr) 4fr;
+  grid-column-gap: 150px;
+
+  img {
+    max-width: 300px;
+  }
+}

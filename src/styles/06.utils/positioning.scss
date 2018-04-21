@@ -1,3 +1,9 @@
 .u-fixed {
   position: fixed;
 }
+
+.u-padding {
+  &--xl {
+    padding: $title-xxl;
+  }
+}

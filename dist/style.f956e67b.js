@@ -144,7 +144,7 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./assets/img/responsive.png":11,"./assets/img/hero-background.jpg":12,"_css_loader":9}],35:[function(require,module,exports) {
+},{"./assets/img/responsive.png":11,"./assets/img/hero-background.jpg":12,"_css_loader":9}],48:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -313,7 +313,7 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}],36:[function(require,module,exports) {
+},{}],49:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -395,6 +395,6 @@ LazyPromise.prototype.catch = function (onError) {
   return this.promise.catch(onError);
 };
 },{"./bundle-url":15}],0:[function(require,module,exports) {
-var b=require(36);b.load([["responsive.25b637fd.png",11],["hero-background.31041728.jpg",12]]);
-},{}]},{},[35,0])
+var b=require(49);b.load([["responsive.25b637fd.png",11],["hero-background.31041728.jpg",12]]);
+},{}]},{},[48,0])
 //# sourceMappingURL=/style.f956e67b.map
