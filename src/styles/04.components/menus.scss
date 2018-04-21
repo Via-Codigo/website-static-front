@@ -1,9 +1,12 @@
 .c-menu-nav {
+  display: flex;
+  align-items: center;
   ul {
     padding: 0;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+
     //justify-content: space-between;
   }
   li {
@@ -14,8 +17,12 @@
   li a {
     color: $primary-dark;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
     padding: 0.5em 1em;
+
+    &.oposite {
+      color: $white;
+    }
 
     &:hover {
       color: $primary-light;

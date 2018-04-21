@@ -5,14 +5,19 @@ mantener la misma estructura
 
 @import "./styles/00.settings/reset",
   "./styles/00.settings/fonts",
-  "./styles/00.settings/colors";
+  "./styles/00.settings/colors",
+  "./styles/00.settings/sizes";
 
-@import "./styles/02.common/base", "./styles/02.common/texts";
+@import "./styles/02.common/base";
+
+@import "./styles/03.layouts/basegrid";
 
 @import "./styles/04.components/links",
   "./styles/04.components/featured",
   "./styles/04.components/menus",
   "./styles/04.components/forms",
-  "./styles/04.components/titles";
+  "./styles/04.components/titles",
+  "./styles/04.components/header",
+  "./styles/04.components/footer";
 
-@import "./styles/06.utils/text";
+@import "./styles/06.utils/backgrounds", "./styles/06.utils/text";

@@ -1,0 +1,12 @@
+.c-header {
+  display: flex;
+  align-items: center;
+  img {
+    height: $header-height;
+    padding-bottom: 2rem;
+  }
+
+  nav {
+    margin-left: auto;
+  }
+}

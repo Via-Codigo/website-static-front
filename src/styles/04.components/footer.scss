@@ -1,0 +1,47 @@
+.c-footer {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  color: $white;
+  a {
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    &:hover {
+      color: $primary-light;
+    }
+  }
+
+  &__menu {
+    padding: 0 20% 2%;
+    display: grid;
+    grid-template-rows: auto $footer-menu-items-height $footer-menu-items-height;
+    img {
+      height: $header-height;
+    }
+
+    a:first-child {
+      padding-left: 0;
+    }
+  }
+
+  &__info {
+    padding: 5% 0 2% 20%;
+    display: grid;
+    grid-template-rows: auto;
+
+    &__addr {
+      color: $secondary-light;
+    }
+
+    &__link {
+      display: block;
+    }
+
+    &__social {
+      li:first-child a {
+        padding-left: 0;
+      }
+    }
+  }
+}
