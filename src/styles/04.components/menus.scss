@@ -1,0 +1,48 @@
+.c-menu-nav {
+  ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    //justify-content: space-between;
+  }
+  li {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  li a {
+    color: $primary-dark;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.5em 1em;
+
+    &:hover {
+      color: $primary-light;
+
+      &:before {
+        content: "[";
+        padding-right: 0.2em;
+      }
+      &:after {
+        content: "]";
+        padding-left: 0.2em;
+      }
+    }
+  }
+}
+
+.c-menu-icons {
+  padding: 0;
+  list-style: none;
+  display: flex;
+
+  li a {
+    font-size: 3rem;
+    color: $secondary-light;
+    padding: 0.5em 0.4em;
+    &:hover {
+      color: $secondary-dark;
+    }
+  }
+}

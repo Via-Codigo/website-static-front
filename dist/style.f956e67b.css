@@ -229,6 +229,41 @@ a {
     color: #6d6e71;
     text-transform: capitalize; }
 
+.c-menu-nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; }
+
+.c-menu-nav li {
+  flex-grow: 1;
+  text-align: center; }
+
+.c-menu-nav li a {
+  color: #174665;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5em 1em; }
+  .c-menu-nav li a:hover {
+    color: #f05351; }
+    .c-menu-nav li a:hover:before {
+      content: "[";
+      padding-right: 0.2em; }
+    .c-menu-nav li a:hover:after {
+      content: "]";
+      padding-left: 0.2em; }
+
+.c-menu-icons {
+  padding: 0;
+  list-style: none;
+  display: flex; }
+  .c-menu-icons li a {
+    font-size: 3rem;
+    color: #738d9e;
+    padding: 0.5em 0.4em; }
+    .c-menu-icons li a:hover {
+      color: #ffd25c; }
+
 .c-form-simple fieldset {
   border: none; }
 
