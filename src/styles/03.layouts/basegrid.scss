@@ -8,14 +8,15 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, minmax(100px, auto));
 
-  header {
+  .l-header {
     grid-area: header;
   }
-  main {
+  .l-content {
     grid-area: content;
+    min-height: 70vh;
   }
 
-  footer {
+  .l-footer {
     grid-area: footer;
   }
 }
