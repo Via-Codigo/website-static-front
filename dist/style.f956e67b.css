@@ -142,7 +142,8 @@ a {
   outline: none; }
 
 button {
-  border: none; }
+  border: none;
+  background: none; }
 
 fieldset {
   border: none; }
