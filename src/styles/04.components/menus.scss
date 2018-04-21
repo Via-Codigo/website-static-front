@@ -20,6 +20,20 @@
     font-weight: 600;
     padding: 0.5em 1em;
 
+    // Hack para que no cambie de tamaño el contenedor del link
+    // a la hora de haver hover con el icono extra
+    &:before {
+      content: "[";
+      padding-right: 0.2em;
+      color: rgba(255, 255, 255, 0);
+    }
+    &:after {
+      content: "]";
+      padding-left: 0.2em;
+      color: rgba(255, 255, 255, 0);
+    }
+    // Fin del hack
+
     &.oposite {
       color: $white;
     }
@@ -30,10 +44,12 @@
       &:before {
         content: "[";
         padding-right: 0.2em;
+        color: $primary-light;
       }
       &:after {
         content: "]";
         padding-left: 0.2em;
+        color: $primary-light;
       }
     }
   }
