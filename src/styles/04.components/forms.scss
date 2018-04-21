@@ -1,0 +1,66 @@
+.c-form {
+  &-simple {
+    fieldset {
+      border: none;
+    }
+    &__label {
+      font-weight: bold;
+      font-size: $title-sm;
+      color: $primary-dark;
+      margin-bottom: 4rem;
+
+      &--light {
+        color: $primary-light;
+      }
+    }
+
+    input {
+      height: 6rem;
+      width: 57rem;
+      padding: 2rem;
+      border: 1px solid $light-grey;
+      border-radius: 3px;
+      &:focus {
+        border: 1px solid $primary-dark;
+      }
+    }
+    button {
+      height: 6rem;
+      width: 20rem;
+      cursor: pointer;
+      background-color: $primary-light;
+      border-radius: 3px;
+      color: $white;
+      text-transform: uppercase;
+      font-weight: bold;
+      position: relative;
+      left: -10rem;
+
+      &:hover {
+        background-color: $primary-dark;
+      }
+    }
+  }
+
+  &-multi {
+    input,
+    label {
+      display: block;
+    }
+    label {
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+    input {
+      border: none;
+      border-bottom: 2px solid $primary-dark;
+      color: $primary-dark;
+    }
+
+    textarea {
+      border: none;
+      border-bottom: 2px solid $primary-dark;
+      color: $primary-dark;
+    }
+  }
+}

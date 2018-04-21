@@ -1,4 +1,4 @@
-.u-title {
+.c-title {
   color: $primary-dark;
   text-transform: uppercase;
   &--xxl {
@@ -36,5 +36,16 @@
       top: 60%;
       z-index: -1;
     }
+  }
+
+  &--deco-left {
+    border-left: 2px solid $primary-light;
+    line-height: 0.7;
+    padding-left: 0.5em;
+  }
+
+  &--multi {
+    display: inline-block;
+    margin-top: 0.3em;
   }
 }

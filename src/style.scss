@@ -3,8 +3,15 @@ Imports del arbol de dependencias
 mantener la misma estructura
 **/
 
-@import "./styles/00.settings/fonts", "./styles/00.settings/colors";
+@import "./styles/00.settings/reset",
+  "./styles/00.settings/fonts",
+  "./styles/00.settings/colors";
 
 @import "./styles/02.common/base", "./styles/02.common/texts";
 
-@import "./styles/06.utils/titles";
+@import "./styles/04.components/links",
+  "./styles/04.components/featured",
+  "./styles/04.components/forms",
+  "./styles/04.components/titles";
+
+@import "./styles/06.utils/text";

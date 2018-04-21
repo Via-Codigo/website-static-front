@@ -1,0 +1,29 @@
+.c-feature-top {
+  text-align: center;
+  max-width: 15%;
+
+  &__img {
+    width: 40%;
+  }
+
+  &__separator {
+    width: 50%;
+    border-right: 2px solid $primary-light;
+    height: 2rem;
+    margin: 0.5rem 0;
+  }
+  &__desc {
+    line-height: 1.7;
+  }
+}
+
+.c-feature-list {
+  ul {
+    color: $primary-light;
+
+    p {
+      color: $text-primary;
+      text-transform: capitalize;
+    }
+  }
+}
